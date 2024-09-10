@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CMCS"
         mc:Ignorable="d"
-        Title="CreateClaimWindow" Height="450" Width="800">
+        Title="CreateClaimWindow" Height="450" Width="400">
     <Grid>
-        
+        <Button x:Name="BackBtn" Content="Back" HorizontalAlignment="Center" Margin="0,344,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="MakeClaimBtn" Content="Make Claim" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="ClaimCreationLbl" Content="Claim Creation" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="HrsWrkdBox" HorizontalAlignment="Left" Margin="190,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="HoursWorkedLbl" Content="Hours Worked:" HorizontalAlignment="Left" Margin="97,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.184,0.94"/>
+        <Button x:Name="UploadDocsBtn" Content="Click to upload supporting documents:" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" Width="242" Height="27" Click="Button_Click"/>
+
     </Grid>
 </Window>
