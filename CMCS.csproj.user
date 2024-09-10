@@ -19,6 +19,9 @@
     <Compile Update="CreateClaimWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ErrorPopup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LecturerReviewClaimWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CreateClaimWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ErrorPopup.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LecturerReviewClaimWindow.xaml">
