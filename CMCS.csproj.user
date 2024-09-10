@@ -7,6 +7,38 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AdminReveiwClaimWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminSignIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateClaimWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LecturerReviewClaimWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LecturerSignIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminReveiwClaimWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminSignIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateClaimWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LecturerReviewClaimWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LecturerSignIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

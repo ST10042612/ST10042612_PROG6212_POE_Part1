@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Mjpae\source\repos\CMCS\CMCS\App.xaml
-11407045341
+6-328284030
 
-6-1828655117
+11-1792963599
 194750953030
-MainWindow.xaml;
+AdminReveiwClaimWindow.xaml;AdminSignIn.xaml;CreateClaimWindow.xaml;LecturerReviewClaimWindow.xaml;LecturerSignIn.xaml;MainWindow.xaml;
 
 True
 
