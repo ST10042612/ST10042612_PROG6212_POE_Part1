@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="AdminReveiwClaimWindow" Height="450" Width="800">
     <Grid>
-        
+
+        <Button x:Name="BackBtn" Content="Back" HorizontalAlignment="Left" Margin="653,360,0,0" VerticalAlignment="Top" Height="40" Width="86" FontSize="18"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="61,157,61,139" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Label x:Name="ClaimsLbl" Content="Claims to Review" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" FontSize="24"/>
+
     </Grid>
 </Window>
